@@ -13,8 +13,8 @@ type TriangleResult = "success" | "failed";
 function triangle(arg1: number, type1: TriangleType, arg2: number, type2: TriangleType): TriangleResult {
     console.log(`\n>-- ${type1} = ${arg1} | ${type2} = ${arg2} --<`);
 
-    let a: number | undefined, b: number | undefined, c: number | undefined;
-    let alpha: number | undefined, beta: number | undefined;
+    let a: number= 0, b: number = 0, c: number = 0;
+    let alpha: number = 0, beta: number = 0;
     
     let countHypotenuse = 0, countAngles = 0;
 
